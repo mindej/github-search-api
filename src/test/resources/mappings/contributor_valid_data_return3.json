@@ -1,0 +1,23 @@
+{
+	"request": {
+		"method": "GET",
+		"url": "/contributors/mock2"
+	},
+	"response": {
+		"status": 200,
+		"jsonBody": [
+			{
+				"id": 463230
+			},
+			{
+				"id": 207870
+			},
+			{
+				"id": 207871
+			}
+		],
+		"headers": {
+			"Content-Type": "application/json; charset=utf-8"
+		}
+	}
+}

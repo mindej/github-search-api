@@ -1,0 +1,22 @@
+{
+	"request": {
+		"method": "GET",
+		"url": "/user/starred"
+	},
+	"response": {
+		"status": 200,
+		"jsonBody": [
+			{
+				"id": 76992484,
+				"full_name": "botpress/Boost"
+			},
+			{
+				"id": 74048282,
+				"full_name": "botpress/botpress-examples"
+			}
+		],
+		"headers": {
+			"Content-Type": "application/json; charset=utf-8"
+		} 
+	}
+}

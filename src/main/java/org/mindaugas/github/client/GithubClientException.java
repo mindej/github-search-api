@@ -1,0 +1,15 @@
+package org.mindaugas.github.client;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.ResponseStatus;
+
+@ResponseStatus(HttpStatus.BAD_REQUEST)
+public class GithubClientException extends RuntimeException {
+
+	private static final long serialVersionUID = 1L;
+
+	public GithubClientException(String exception) {
+		super(exception);
+	}
+
+}

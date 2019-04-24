@@ -1,0 +1,37 @@
+{
+	"request": {
+		"method": "GET",
+		"url": "/search/repositories?q=language:test-query&sort=stars&order=desc&page=1&per_page=10"
+	},
+	"response": {
+		"status": 200,
+		"jsonBody": {
+			"total_count": 6202854,
+			"items": [
+				{
+					"full_name": "botpress/Boost",
+					"description": "test description1",
+					"stargazers_count": 123,
+					"contributors_url": "http://localhost:8081/contributors/mock",
+					"url": "http://localhost:8081/repos/test1",
+					"license": {
+						"name": "license-test1"
+					}
+				},
+				{
+					"full_name": "iluwatar/java-design-patterns",
+					"description": "test description2",
+					"stargazers_count": 345,
+					"contributors_url": "http://localhost:8081/contributors/mock2",
+					"url": "http://localhost:8081/repos/test2",
+					"license": {
+						"name": "license-test2"
+					}
+				}
+			]
+		},
+		"headers": {
+			"Content-Type": "application/json; charset=utf-8"
+		}
+	}
+}

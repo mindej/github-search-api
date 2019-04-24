@@ -1,0 +1,20 @@
+{
+	"request": {
+		"method": "GET",
+		"url": "/contributors/mock_403"
+	},
+	"response": {
+		"status": 403,
+		"jsonBody": [
+			{
+				"id": -463230
+			},
+			{
+				"id": -207870
+			}
+		],
+		"headers": {
+			"Content-Type": "application/json; charset=utf-8"
+		}
+	}
+}

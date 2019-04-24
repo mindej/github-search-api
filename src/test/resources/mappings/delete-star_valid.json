@@ -1,0 +1,9 @@
+{
+	"request": {
+		"method": "DELETE",
+		"url": "/user/starred/test-user/test-repo"
+	},
+	"response": {
+		"status": 204
+	}
+}
