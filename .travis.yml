@@ -4,4 +4,4 @@ jdk:
  
   
 script:
-  - ./mvnw clean test -Dspring.profiles.active=test
+  - mvn clean test -Dspring.profiles.active=test
