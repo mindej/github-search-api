@@ -3,4 +3,4 @@ logging:
       org.springframework.web.client: INFO
 github:
    url: 'https://api.github.com'
-   token: 'XXX'
+   token: ${GITHUB_TOKEN:'XXX'}

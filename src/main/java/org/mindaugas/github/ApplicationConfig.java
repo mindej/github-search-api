@@ -3,13 +3,13 @@ package org.mindaugas.github;
 import static springfox.documentation.builders.PathSelectors.regex;
 
 import java.util.concurrent.Executor;
+import java.util.function.Predicate;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 
-import com.google.common.base.Predicate;
 
 import springfox.documentation.builders.ApiInfoBuilder;
 import springfox.documentation.service.ApiInfo;
@@ -18,7 +18,6 @@ import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @Configuration
-@EnableSwagger2
 @EnableAsync
 public class ApplicationConfig {
 	@Bean
